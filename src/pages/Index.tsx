@@ -1,7 +1,12 @@
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
 import { ServiceCard } from "@/components/ServiceCard";
+import { WhyChooseUsSection } from "@/components/WhyChooseUsSection";
+import { SpecializationsSection } from "@/components/SpecializationsSection";
+import { ProcessSection } from "@/components/ProcessSection";
+import { PackagesSection } from "@/components/PackagesSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { FAQSection } from "@/components/FAQSection";
 import { ContactSection } from "@/components/ContactSection";
 
 // Import images
@@ -72,7 +77,17 @@ const Index = () => {
         </div>
       </section>
       
+      <WhyChooseUsSection />
+      
+      <SpecializationsSection phoneNumber={phoneNumber} />
+      
+      <ProcessSection phoneNumber={phoneNumber} />
+      
+      <PackagesSection phoneNumber={phoneNumber} />
+      
       <TestimonialsSection />
+      
+      <FAQSection />
       
       <ContactSection phoneNumber={phoneNumber} />
       
