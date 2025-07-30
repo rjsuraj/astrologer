@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Indian astrology theme colors
+				saffron: 'hsl(var(--saffron))',
+				'deep-orange': 'hsl(var(--deep-orange))',
+				golden: 'hsl(var(--golden))',
+				emerald: 'hsl(var(--emerald))',
+				'royal-red': 'hsl(var(--royal-red))',
+				'mystic-purple': 'hsl(var(--mystic-purple))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
