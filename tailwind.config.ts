@@ -52,7 +52,7 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Indian astrology theme colors
+				// Islamic themed colors
 				saffron: 'hsl(var(--saffron))',
 				'deep-orange': 'hsl(var(--deep-orange))',
 				golden: 'hsl(var(--golden))',

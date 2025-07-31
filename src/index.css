@@ -36,23 +36,23 @@ All colors MUST be HSL.
     --input: 45 30% 85%;
     --ring: 15 88% 55%;
 
-    /* Custom Indian astrology colors */
-    --saffron: 25 100% 60%;
-    --deep-orange: 15 88% 55%;
+    /* Custom Islamic themed colors */
+    --saffron: 158 64% 52%;
+    --deep-orange: 180 100% 25%;
     --golden: 45 100% 65%;
-    --emerald: 150 85% 45%;
-    --royal-red: 0 75% 50%;
-    --mystic-purple: 280 65% 45%;
+    --emerald: 158 64% 52%;
+    --royal-red: 210 100% 25%;
+    --mystic-purple: 200 100% 15%;
     
     /* Gradients */
-    --gradient-sunset: linear-gradient(135deg, hsl(var(--saffron)), hsl(var(--deep-orange)));
-    --gradient-golden: linear-gradient(135deg, hsl(var(--golden)), hsl(var(--saffron)));
-    --gradient-mystical: linear-gradient(135deg, hsl(var(--mystic-purple)), hsl(var(--deep-orange)));
+    --gradient-sunset: linear-gradient(135deg, hsl(var(--emerald)), hsl(var(--deep-orange)));
+    --gradient-golden: linear-gradient(135deg, hsl(var(--golden)), hsl(var(--emerald)));
+    --gradient-mystical: linear-gradient(135deg, hsl(var(--royal-red)), hsl(var(--deep-orange)));
     --gradient-prosperity: linear-gradient(135deg, hsl(var(--emerald)), hsl(var(--golden)));
     
     /* Shadows */
-    --shadow-warm: 0 10px 30px -10px hsl(var(--saffron) / 0.3);
-    --shadow-mystical: 0 0 40px hsl(var(--mystic-purple) / 0.2);
+    --shadow-warm: 0 10px 30px -10px hsl(var(--emerald) / 0.3);
+    --shadow-mystical: 0 0 40px hsl(var(--royal-red) / 0.2);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
