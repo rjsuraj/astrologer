@@ -10,37 +10,37 @@ import { FAQSection } from "@/components/FAQSection";
 import { ContactSection } from "@/components/ContactSection";
 
 // Import images
-import marriageSolution from "@/assets/marriage-solution.jpg";
-import businessProsperity from "@/assets/business-prosperity.jpg";
-import loveSolution from "@/assets/love-solution.jpg";
-import astrologerConsultation from "@/assets/astrologer-consultation.jpg";
+import islamicMosque from "@/assets/islamic-mosque.jpg";
+import muslimCoupleHappy from "@/assets/muslim-couple-happy.jpg";
+import islamicAstrology from "@/assets/islamic-astrology.jpg";
+import islamicDua from "@/assets/islamic-dua.jpg";
 
 const Index = () => {
   const phoneNumber = "+91 8829922256";
 
   const services = [
     {
-      title: "LOVE MARRIAGE SOLUTION",
-      image: marriageSolution,
-      description: "प्रेम विवाह की समस्या, माता-पिता की सहमति, जाति-पाति की समस्या का तुरंत समाधान। 100% गारंटीशुदा परिणाम।",
+      title: "ISLAMIC DUA FOR MARRIAGE",
+      image: muslimCoupleHappy,
+      description: "इस्लामिक दुआ और वज़ीफा के द्वारा प्रेम विवाह की समस्या का समाधान। हलाल तरीकों से माता-पिता की सहमति पाएं।",
       variant: "mystical" as const
     },
     {
-      title: "GET YOUR EX BACK",
-      image: loveSolution,
-      description: "बिछड़े हुए प्रेमी-प्रेमिका को वापस पाने का अचूक उपाय। मनचाहे व्यक्ति को वश में करने की विधा।",
+      title: "GET YOUR EX LOVER BACK",
+      image: islamicDua,
+      description: "क़ुरानी आयतों और दुआ के द्वारा खोए हुए प्यार को वापस पाएं। 100% हलाल और सुरक्षित तरीका।",
       variant: "saffron" as const
     },
     {
-      title: "BUSINESS PROSPERITY",
-      image: businessProsperity,
-      description: "व्यापार में वृद्धि, नौकरी की समस्या, आर्थिक परेशानी का समाधान। धन लाभ के लिए विशेष उपाय।",
+      title: "WAZIFA FOR DIVORCE PREVENTION",
+      image: islamicAstrology,
+      description: "तलाक से बचने के लिए विशेष वज़ीफा और दुआ। पति-पत्नी के बीच प्रेम और समझ बढ़ाने के इस्लामिक तरीके।",
       variant: "prosperity" as const
     },
     {
-      title: "FAMILY PROBLEM SOLUTION",
-      image: astrologerConsultation,
-      description: "पारिवारिक कलह, पति-पत्नी में अनबन, सास-बहू की समस्या, संतान प्राप्ति के लिए उपाय।",
+      title: "FAMILY DISPUTE SOLUTION",
+      image: islamicMosque,
+      description: "पारिवारिक कलह, रिश्तेदारों में झगड़े, और घर में अशांति का इस्लामिक समाधान। सुन्नत तरीकों से शांति पाएं।",
       variant: "golden" as const
     }
   ];
@@ -55,10 +55,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              हमारी विशेष सेवाएं
+              इस्लामिक ज्योतिष की विशेष सेवाएं
             </h2>
             <p className="text-xl text-muted-foreground">
-              सभी प्रकार की समस्याओं का तुरंत और गारंटीशुदा समाधान
+              हलाल तरीकों से सभी समस्याओं का तुरंत और गारंटीशुदा समाधान - मोलाना साहिल खान
             </p>
           </div>
           
@@ -94,11 +94,11 @@ const Index = () => {
       <footer className="bg-foreground text-background py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg">
-            © 2024 ज्योतिष समाधान शाला - सभी अधिकार सुरक्षित | 
+            © 2024 मोलाना साहिल खान - इस्लामिक ज्योतिष विशेषज्ञ | 
             <span className="text-golden font-semibold"> {phoneNumber}</span>
           </p>
           <p className="text-sm mt-2 text-background/80">
-            प्रसिद्ध ज्योतिषाचार्य द्वारा 100% गारंटीशुदा समाधान
+            विश्वसनीय इस्लामिक ज्योतिषी द्वारा 100% हलाल और गारंटीशुदा समाधान
           </p>
         </div>
       </footer>
