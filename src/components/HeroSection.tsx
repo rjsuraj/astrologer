@@ -1,17 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Star, Sparkles, Heart, TrendingUp } from "lucide-react";
-
 interface HeroSectionProps {
   phoneNumber: string;
 }
-
-export const HeroSection = ({ phoneNumber }: HeroSectionProps) => {
+export const HeroSection = ({
+  phoneNumber
+}: HeroSectionProps) => {
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
   };
-
-  return (
-    <section className="relative bg-gradient-to-br from-mystic-purple via-deep-orange to-saffron min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative bg-gradient-to-br from-mystic-purple via-deep-orange to-saffron min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-20 text-golden/20 animate-pulse">
@@ -31,7 +29,7 @@ export const HeroSection = ({ phoneNumber }: HeroSectionProps) => {
       <div className="container mx-auto px-4 text-center text-white relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="block text-golden">प्रसिद्ध ज्योतिषाचार्य</span>
+            <span className="block text-golden">Famous Muslim</span>
             <span className="block mt-2">समस्या समाधान गुरुजी</span>
           </h1>
           
@@ -40,12 +38,7 @@ export const HeroSection = ({ phoneNumber }: HeroSectionProps) => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <Button 
-              variant="golden" 
-              size="xl" 
-              onClick={handleCall}
-              className="text-xl px-12 py-6 animate-pulse"
-            >
+            <Button variant="golden" size="xl" onClick={handleCall} className="text-xl px-12 py-6 animate-pulse">
               तुरंत सम्पर्क करें: {phoneNumber}
             </Button>
           </div>
@@ -70,6 +63,5 @@ export const HeroSection = ({ phoneNumber }: HeroSectionProps) => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
