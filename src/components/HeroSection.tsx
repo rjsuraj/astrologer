@@ -30,7 +30,7 @@ export const HeroSection = ({
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             <span className="block text-golden">Famous Muslim</span>
-            <span className="block mt-2">समस्या समाधान गुरुजी</span>
+            <span className="block mt-2">Astrologer Sahil Khan</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed">
