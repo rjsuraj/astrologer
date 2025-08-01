@@ -17,64 +17,64 @@ const AboutPage = ({ phoneNumber = "+91 8829922256" }: AboutPageProps) => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-foreground mb-6">
-            पंडित जी के बारे में
+            मोलाना साहिल खान के बारे में
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            25+ वर्षों के अनुभव के साथ, हमारे प्रसिद्ध ज्योतिषाचार्य ने हजारों परिवारों की समस्याओं का समाधान किया है
+            25+ वर्षों के अनुभव के साथ, प्रसिद्ध मुस्लिम ज्योतिषी मोलाना साहिल खान ने हजारों मुस्लिम परिवारों की समस्याओं का इस्लामिक तरीकों से समाधान किया है
           </p>
         </div>
 
         {/* Main Content */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
-            <h2 className="text-3xl font-bold text-foreground mb-6">शिक्षा और योग्यता</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-6">इस्लामिक शिक्षा और योग्यता</h2>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <BookOpen className="text-saffron mt-1" size={20} />
                 <div>
-                  <h3 className="font-semibold text-foreground">ज्योतिष आचार्य</h3>
-                  <p className="text-muted-foreground">काशी हिंदू विश्वविद्यालय से ज्योतिष में स्नातकोत्तर</p>
+                  <h3 className="font-semibold text-foreground">इस्लामिक ज्योतिष आचार्य</h3>
+                  <p className="text-muted-foreground">जामिया मिलिया इस्लामिया से इस्लामिक स्टडीज में स्नातकोत्तर</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <BookOpen className="text-saffron mt-1" size={20} />
                 <div>
-                  <h3 className="font-semibold text-foreground">वैदिक ज्योतिष विशेषज्ञ</h3>
-                  <p className="text-muted-foreground">प्राचीन वैदिक ग्रंथों का गहरा अध्ययन</p>
+                  <h3 className="font-semibold text-foreground">क़ुरान और हदीस विशेषज्ञ</h3>
+                  <p className="text-muted-foreground">क़ुरान शरीफ और हदीस का गहरा अध्ययन और ज्ञान</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <BookOpen className="text-saffron mt-1" size={20} />
                 <div>
-                  <h3 className="font-semibold text-foreground">तंत्र-मंत्र सिद्ध</h3>
-                  <p className="text-muted-foreground">विशेष तांत्रिक विद्याओं में प्रवीणता</p>
+                  <h3 className="font-semibold text-foreground">दुआ और वज़ीफा सिद्ध</h3>
+                  <p className="text-muted-foreground">इस्लामिक दुआ और वज़ीफा की विशेष विद्याओं में प्रवीणता</p>
                 </div>
               </div>
             </div>
           </Card>
 
           <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
-            <h2 className="text-3xl font-bold text-foreground mb-6">विशेषताएं</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-6">इस्लामिक विशेषताएं</h2>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
                 <Award className="text-golden mt-1" size={20} />
                 <div>
-                  <h3 className="font-semibold text-foreground">प्रेम समस्या विशेषज्ञ</h3>
-                  <p className="text-muted-foreground">प्रेम विवाह और रिश्तों की समस्याओं में सिद्धहस्त</p>
+                  <h3 className="font-semibold text-foreground">निकाह की समस्या विशेषज्ञ</h3>
+                  <p className="text-muted-foreground">इस्लामिक तरीकों से निकाह और रिश्तों की समस्याओं में सिद्धहस्त</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <Award className="text-golden mt-1" size={20} />
                 <div>
-                  <h3 className="font-semibold text-foreground">व्यापार ज्योतिष</h3>
-                  <p className="text-muted-foreground">व्यापार और करियर की समस्याओं के विशेषज्ञ</p>
+                  <h3 className="font-semibold text-foreground">हलाल व्यापार ज्योतिष</h3>
+                  <p className="text-muted-foreground">व्यापार में बरकत और हलाल कमाई के इस्लामिक उपाय</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <Award className="text-golden mt-1" size={20} />
                 <div>
-                  <h3 className="font-semibold text-foreground">तुरंत समाधान</h3>
-                  <p className="text-muted-foreground">2-7 दिन में दिखने वाले परिणाम</p>
+                  <h3 className="font-semibold text-foreground">तुरंत बरकती समाधान</h3>
+                  <p className="text-muted-foreground">अल्लाह की रहमत से 2-7 दिन में दिखने वाले परिणाम</p>
                 </div>
               </div>
             </div>
@@ -109,10 +109,10 @@ const AboutPage = ({ phoneNumber = "+91 8829922256" }: AboutPageProps) => {
         <div className="text-center">
           <Card className="p-8 bg-gradient-to-r from-golden to-saffron text-white">
             <h2 className="text-3xl font-bold mb-4">
-              आज ही संपर्क करें
+              आज ही संपर्क करें - इन्शा अल्लाह
             </h2>
             <p className="text-xl mb-6">
-              अपनी समस्या का तुरंत समाधान पाने के लिए अभी कॉल करें
+              अपनी समस्या का इस्लामिक समाधान पाने के लिए अभी कॉल करें - अल्लाह की रहमत से
             </p>
             <Button 
               variant="consult" 

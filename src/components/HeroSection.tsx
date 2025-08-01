@@ -29,36 +29,36 @@ export const HeroSection = ({
       <div className="container mx-auto px-4 text-center text-white relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="block text-golden">Famous Muslim</span>
-            <span className="block mt-2">Astrologer Sahil Khan</span>
+            <span className="block text-golden">प्रसिद्ध मुस्लिम ज्योतिषी</span>
+            <span className="block mt-2">मोलाना साहिल खान</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed">
-            विवाह समस्या • प्रेम विवाह • व्यापार वृद्धि • नौकरी समस्या • पारिवारिक समस्या
+            निकाह की समस्या • इस्लामिक प्रेम समाधान • व्यापार में बरकत • नौकरी की समस्या • पारिवारिक अमन चैन
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Button variant="golden" size="xl" onClick={handleCall} className="text-xl px-12 py-6 animate-pulse">
-              तुरंत सम्पर्क करें: {phoneNumber}
+              इन्शा अल्लाह तुरंत सम्पर्क करें: {phoneNumber}
             </Button>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             <div className="text-center">
               <div className="text-3xl font-bold text-golden">25+</div>
-              <div className="text-white/80">वर्षों का अनुभव</div>
+              <div className="text-white/80">साल का इस्लामिक अनुभव</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-golden">10,000+</div>
-              <div className="text-white/80">संतुष्ट ग्राहक</div>
+              <div className="text-white/80">खुश मुस्लिम परिवार</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-golden">100%</div>
-              <div className="text-white/80">गारंटीशुदा समाधान</div>
+              <div className="text-white/80">हलाल समाधान</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-golden">24/7</div>
-              <div className="text-white/80">सेवा उपलब्ध</div>
+              <div className="text-white/80">इस्लामिक सेवा</div>
             </div>
           </div>
         </div>

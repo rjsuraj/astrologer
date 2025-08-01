@@ -15,49 +15,49 @@ const ServicesPage = ({ phoneNumber = "+91 8829922256" }: ServicesPageProps) => 
   const services = [
     {
       icon: <Heart className="text-white" size={40} />,
-      title: "प्रेम समस्या समाधान",
-      description: "प्रेम विवाह, वश में करना, एकतरफा प्यार, प्रेमी-प्रेमिका में अनबन",
-      features: ["प्रेम विवाह कराना", "वश में करना", "एकतरफा प्यार का समाधान", "प्रेमी को वापस लाना"],
+      title: "निकाह की समस्या का समाधान",
+      description: "इस्लामिक तरीकों से निकाह, प्रेम विवाह, रिश्तों की समस्याओं का हल",
+      features: ["निकाह में बाधा दूर करना", "माता-पिता की सहमति", "इश्क़ की समस्या", "रिश्ता पक्का कराना"],
       color: "from-royal-red to-saffron",
       price: "निःशुल्क परामर्श"
     },
     {
       icon: <TrendingUp className="text-white" size={40} />,
-      title: "व्यापार वृद्धि समाधान",
-      description: "व्यापार में तरक्की, आर्थिक समस्या, नौकरी की परेशानी",
-      features: ["व्यापार में लाभ", "नौकरी दिलाना", "आर्थिक तंगी का समाधान", "करियर की समस्या"],
+      title: "व्यापार में बरकत",
+      description: "हलाल तरीकों से व्यापार में तरक्की, आर्थिक समस्या का समाधान",
+      features: ["व्यापार में बरकत", "हलाल नौकरी", "आर्थिक तंगी का हल", "करियर की बरकत"],
       color: "from-emerald to-golden",
-      price: "विशेष छूट"
+      price: "विशेष दुआ"
     },
     {
       icon: <Home className="text-white" size={40} />,
-      title: "पारिवारिक समस्या समाधान",
-      description: "घरेलू कलह, पति-पत्नी में अनबन, सास-बहू की समस्या",
-      features: ["पति-पत्नी में प्रेम", "सास-बहू की समस्या", "घरेलू कलह", "रिश्तों में सुधार"],
+      title: "पारिवारिक अमन चैन",
+      description: "घरेलू कलह, पति-पत्नी में अनबन, पारिवारिक समस्याओं का इस्लामिक समाधान",
+      features: ["पति-पत्नी में मुहब्बत", "घर में बरकत", "पारिवारिक एकता", "रिश्तों में सुधार"],
       color: "from-mystic-purple to-deep-orange",
-      price: "केवल सामग्री शुल्क"
+      price: "दुआ और वज़ीफा"
     },
     {
       icon: <Baby className="text-white" size={40} />,
-      title: "संतान प्राप्ति",
-      description: "संतान योग, गर्भधारण की समस्या, पुत्र प्राप्ति",
-      features: ["संतान प्राप्ति योग", "गर्भधारण समस्या", "पुत्र प्राप्ति", "संतान रक्षा"],
+      title: "औलाद की नेमत",
+      description: "संतान प्राप्ति, गर्भधारण की समस्या का इस्लामिक समाधान",
+      features: ["औलाद की दुआ", "गर्भधारण की समस्या", "नेक संतान", "संतान की सुरक्षा"],
       color: "from-saffron to-golden",
-      price: "विशेष उपाय"
+      price: "विशेष वज़ीफा"
     },
     {
       icon: <Shield className="text-white" size={40} />,
-      title: "काला जादू निवारण",
-      description: "टोना-टोटका, नजर लगना, बुरी शक्तियों से सुरक्षा",
-      features: ["काला जादू हटाना", "नजर उतारना", "बुरी शक्ति निवारण", "सुरक्षा कवच"],
+      title: "नजर और जादू से हिफाजत",
+      description: "नजर लगना, जादू-टोना, बुरी नजर से बचाव के इस्लामिक उपाय",
+      features: ["नजर का इलाज", "जादू का तोड़", "बुरी शक्ति से बचाव", "इस्लामिक दम"],
       color: "from-deep-orange to-royal-red",
       price: "तुरंत राहत"
     },
     {
       icon: <Zap className="text-white" size={40} />,
-      title: "तुरंत समाधान",
-      description: "आपातकालीन समस्याओं का 24 घंटे में समाधान",
-      features: ["तत्काल उपाय", "24 घंटे सेवा", "आपातकालीन समाधान", "तुरंत परिणाम"],
+      title: "तत्काल समाधान",
+      description: "आपातकालीन समस्याओं का इस्लामिक तरीकों से तुरंत समाधान",
+      features: ["तत्काल दुआ", "24 घंटे सेवा", "आपातकालीन मदद", "फौरी परिणाम"],
       color: "from-golden to-saffron",
       price: "तत्काल सेवा"
     }
@@ -69,10 +69,10 @@ const ServicesPage = ({ phoneNumber = "+91 8829922256" }: ServicesPageProps) => 
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-foreground mb-6">
-            हमारी सेवाएं
+            हमारी इस्लामिक सेवाएं
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            जीवन की सभी समस्याओं के लिए 100% गारंटीशुदा ज्योतिषीय समाधान
+            जीवन की सभी समस्याओं के लिए 100% हलाल और शरीयत अनुकूल समाधान - अल्लाह की रहमत से
           </p>
         </div>
 
@@ -122,10 +122,10 @@ const ServicesPage = ({ phoneNumber = "+91 8829922256" }: ServicesPageProps) => 
         <div className="text-center">
           <Card className="p-8 bg-gradient-to-r from-deep-orange to-mystic-purple text-white">
             <h2 className="text-3xl font-bold mb-4">
-              किसी भी समस्या के लिए तुरंत संपर्क करें
+              किसी भी समस्या के लिए तुरंत संपर्क करें - इन्शा अल्लाह
             </h2>
             <p className="text-xl mb-6">
-              24/7 उपलब्ध • निःशुल्क परामर्श • गारंटीशुदा समाधान
+              24/7 उपलब्ध • निःशुल्क परामर्श • हलाल और शरीयत अनुकूल समाधान
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 

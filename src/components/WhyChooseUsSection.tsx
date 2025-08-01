@@ -5,23 +5,23 @@ export const WhyChooseUsSection = () => {
   const features = [
     {
       icon: <Star className="text-golden" size={48} />,
-      title: "25+ वर्षों का अनुभव",
-      description: "ज्योतिष विद्या में गहरा अध्ययन और व्यावहारिक अनुभव"
+      title: "25+ वर्षों का इस्लामिक अनुभव",
+      description: "इस्लामिक ज्योतिष विद्या में गहरा अध्ययन और शरीयत अनुकूल व्यावहारिक अनुभव"
     },
     {
       icon: <Award className="text-golden" size={48} />,
-      title: "100% गारंटीशुदा समाधान",
-      description: "सभी समस्याओं का पूर्ण समाधान या पैसे वापस की गारंटी"
+      title: "100% हलाल समाधान",
+      description: "क़ुरान और सुन्नत के अनुसार सभी समस्याओं का पूर्ण समाधान - अल्लाह की रहमत से"
     },
     {
       icon: <Users className="text-golden" size={48} />,
-      title: "10,000+ संतुष्ट ग्राहक",
-      description: "हजारों परिवारों में खुशियां लाने का गौरवशाली इतिहास"
+      title: "10,000+ खुश मुस्लिम परिवार",
+      description: "हजारों मुस्लिम परिवारों में खुशियां और बरकत लाने का गौरवशाली इतिहास"
     },
     {
       icon: <CheckCircle className="text-golden" size={48} />,
-      title: "24/7 सेवा उपलब्ध",
-      description: "किसी भी समय संपर्क करें, तुरंत सलाह और समाधान"
+      title: "24/7 इस्लामिक सेवा",
+      description: "किसी भी समय संपर्क करें, तुरंत इस्लामिक सलाह और हलाल समाधान"
     }
   ];
 
@@ -30,10 +30,10 @@ export const WhyChooseUsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            हमें क्यों चुनें?
+            मोलाना साहिल खान को क्यों चुनें?
           </h2>
           <p className="text-xl text-muted-foreground">
-            विश्वसनीयता और परिणाम हमारी पहचान है
+            इस्लामिक विश्वसनीयता और अल्लाह की रहमत से परिणाम हमारी पहचान है
           </p>
         </div>
         

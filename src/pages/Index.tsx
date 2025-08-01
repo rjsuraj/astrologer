@@ -14,34 +14,50 @@ import islamicMosque from "@/assets/islamic-mosque.jpg";
 import muslimCoupleHappy from "@/assets/muslim-couple-happy.jpg";
 import islamicAstrology from "@/assets/islamic-astrology.jpg";
 import islamicDua from "@/assets/islamic-dua.jpg";
+import islamicScholar from "@/assets/islamic-scholar.jpg";
+import islamicPrayer from "@/assets/islamic-prayer.jpg";
+import islamicNumerology from "@/assets/islamic-numerology.jpg";
+import islamicFamily from "@/assets/islamic-family.jpg";
 
 const Index = () => {
   const phoneNumber = "+91 8829922256";
 
   const services = [
     {
-      title: "ISLAMIC DUA FOR MARRIAGE",
+      title: "निकाह में बाधा का समाधान",
       image: muslimCoupleHappy,
-      description: "इस्लामिक दुआ और वज़ीफा के द्वारा प्रेम विवाह की समस्या का समाधान। हलाल तरीकों से माता-पिता की सहमति पाएं।",
+      description: "इस्लामिक दुआ और वज़ीफा के द्वारा निकाह की बाधाओं का समाधान। हलाल तरीकों से माता-पिता की सहमति और प्रेम विवाह।",
       variant: "mystical" as const
     },
     {
-      title: "GET YOUR EX LOVER BACK",
+      title: "खोए हुए प्यार की वापसी",
       image: islamicDua,
-      description: "क़ुरानी आयतों और दुआ के द्वारा खोए हुए प्यार को वापस पाएं। 100% हलाल और सुरक्षित तरीका।",
+      description: "क़ुरानी आयतों और पवित्र दुआ के द्वारा खोए हुए प्यार को वापस पाएं। 100% हलाल इस्लामिक तरीका।",
       variant: "saffron" as const
     },
     {
-      title: "WAZIFA FOR DIVORCE PREVENTION",
-      image: islamicAstrology,
-      description: "तलाक से बचने के लिए विशेष वज़ीफा और दुआ। पति-पत्नी के बीच प्रेम और समझ बढ़ाने के इस्लामिक तरीके।",
+      title: "तलाक से बचाव के उपाय",
+      image: islamicPrayer,
+      description: "तलाक से बचने के लिए विशेष वज़ीफा और दुआ। पति-पत्नी के बीच मुहब्बत बढ़ाने के इस्लामिक तरीके।",
       variant: "prosperity" as const
     },
     {
-      title: "FAMILY DISPUTE SOLUTION",
-      image: islamicMosque,
-      description: "पारिवारिक कलह, रिश्तेदारों में झगड़े, और घर में अशांति का इस्लामिक समाधान। सुन्नत तरीकों से शांति पाएं।",
+      title: "पारिवारिक समस्या का हल",
+      image: islamicFamily,
+      description: "पारिवारिक कलह, रिश्तेदारों में झगड़े का इस्लामिक समाधान। सुन्नत तरीकों से घर में शांति और खुशहाली।",
       variant: "golden" as const
+    },
+    {
+      title: "व्यापार में बरकत",
+      image: islamicNumerology,
+      description: "व्यापार में तरक्की और आर्थिक समस्याओं का इस्लामिक समाधान। हलाल कमाई और बरकत के लिए विशेष दुआ।",
+      variant: "saffron" as const
+    },
+    {
+      title: "संतान प्राप्ति की दुआ",
+      image: islamicScholar,
+      description: "औलाद की नेमत पाने के लिए इस्लामिक दुआ और वज़ीफा। नेक संतान और संतान की सुरक्षा के उपाय।",
+      variant: "mystical" as const
     }
   ];
 
@@ -62,7 +78,7 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {services.map((service, index) => (
               <ServiceCard
                 key={index}
@@ -94,11 +110,14 @@ const Index = () => {
       <footer className="bg-foreground text-background py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg">
-            © 2024 मोलाना साहिल खान - इस्लामिक ज्योतिष विशेषज्ञ | 
+            © 2024 मोलाना साहिल खान - प्रसिद्ध मुस्लिम ज्योतिषी | 
             <span className="text-golden font-semibold"> {phoneNumber}</span>
           </p>
           <p className="text-sm mt-2 text-background/80">
-            विश्वसनीय इस्लामिक ज्योतिषी द्वारा 100% हलाल और गारंटीशुदा समाधान
+            विश्वसनीय इस्लामिक ज्योतिषी द्वारा 100% हलाल और शरीयत अनुकूल समाधान
+          </p>
+          <p className="text-xs mt-1 text-background/60">
+            क़ुरान और सुन्नत के अनुसार समस्याओं का समाधान
           </p>
         </div>
       </footer>

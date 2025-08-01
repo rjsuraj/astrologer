@@ -25,10 +25,10 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-foreground mb-6">
-            संपर्क करें
+            मोलाना साहिल खान से संपर्क करें
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            किसी भी समस्या के लिए तुरंत संपर्क करें। हम 24/7 आपकी सेवा में उपलब्ध हैं।
+            किसी भी इस्लामिक समस्या के लिए तुरंत संपर्क करें। अल्लाह की रहमत से हम 24/7 आपकी सेवा में उपलब्ध हैं।
           </p>
         </div>
 
@@ -74,7 +74,7 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
         {/* Contact Information */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
-            <h2 className="text-3xl font-bold text-foreground mb-6">संपर्क विवरण</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-6">मोलाना साहिल खान संपर्क विवरण</h2>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <Phone className="text-saffron mt-1" size={24} />
@@ -106,9 +106,9 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
               <div className="flex items-start space-x-4">
                 <MapPin className="text-mystic-purple mt-1" size={24} />
                 <div>
-                  <h3 className="font-semibold text-foreground">सेवा क्षेत्र</h3>
+                  <h3 className="font-semibold text-foreground">इस्लामिक सेवा क्षेत्र</h3>
                   <p className="text-muted-foreground">पूरे भारत में उपलब्ध</p>
-                  <p className="text-sm text-muted-foreground">सभी राज्यों में सेवा</p>
+                  <p className="text-sm text-muted-foreground">सभी मुस्लिम भाइयों और बहनों के लिए</p>
                 </div>
               </div>
             </div>
@@ -143,10 +143,10 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
             </div>
 
             <div className="mt-8 p-6 bg-gradient-to-r from-golden/10 to-saffron/10 rounded-lg">
-              <h3 className="font-semibold text-foreground mb-2">विशेष नोट</h3>
+              <h3 className="font-semibold text-foreground mb-2">इस्लामिक गाइडेंस</h3>
               <p className="text-muted-foreground text-sm">
-                पहली बार कॉल करने पर परामर्श बिल्कुल निःशुल्क है। 
-                आपकी गोपनीयता हमारी प्राथमिकता है।
+                पहली बार कॉल करने पर इस्लामिक परामर्श बिल्कुल निःशुल्क है। 
+                आपकी गोपनीयता अल्लाह के बाद हमारी प्राथमिकता है। सभी समाधान शरीयत अनुकूल हैं।
               </p>
             </div>
           </Card>
@@ -156,10 +156,10 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
         <div className="text-center">
           <Card className="p-8 bg-gradient-to-r from-royal-red to-deep-orange text-white">
             <h2 className="text-3xl font-bold mb-4">
-              आपातकालीन सहायता
+              आपातकालीन इस्लामिक सहायता
             </h2>
             <p className="text-xl mb-6">
-              तुरंत समाधान चाहिए? 24/7 उपलब्ध आपातकालीन सेवा
+              तुरंत इस्लामिक समाधान चाहिए? अल्लाह की रहमत से 24/7 उपलब्ध सेवा
             </p>
             <div className="text-4xl font-bold text-golden mb-6 animate-pulse">
               {phoneNumber}
