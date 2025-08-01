@@ -14,38 +14,38 @@ export const SpecializationsSection = ({ phoneNumber }: SpecializationsSectionPr
   const specializations = [
     {
       icon: <Heart className="text-royal-red" size={40} />,
-      title: "प्रेम समस्या समाधान",
-      description: "वश में करना, प्रेम विवाह, एकतरफा प्यार का समाधान",
+      title: "Love Problem Solution",
+      description: "Get your love back, love marriage, one-sided love solution.",
       color: "from-royal-red to-saffron"
     },
     {
       icon: <TrendingUp className="text-emerald" size={40} />,
-      title: "व्यापार वृद्धि",
-      description: "व्यापार में तरक्की, आर्थिक समस्या, नौकरी की समस्या",
+      title: "Business Growth",
+      description: "Business growth, financial problems, job problems.",
       color: "from-emerald to-golden"
     },
     {
       icon: <Home className="text-mystic-purple" size={40} />,
-      title: "पारिवारिक समस्या",
-      description: "घरेलू कलह, रिश्तों में मतभेद, सास-बहू की समस्या",
+      title: "Family Problems",
+      description: "Family disputes, relationship issues, mother-in-law problems.",
       color: "from-mystic-purple to-deep-orange"
     },
     {
       icon: <Baby className="text-saffron" size={40} />,
-      title: "संतान प्राप्ति",
-      description: "संतान योग, संतान की समस्या, गर्भधारण की समस्या",
+      title: "Childbirth Issues",
+      description: "Childbirth prediction, childbirth problems, pregnancy problems.",
       color: "from-saffron to-golden"
     },
     {
       icon: <Shield className="text-deep-orange" size={40} />,
-      title: "काला जादू निवारण",
-      description: "टोना-टोटका, नजर लगना, बुरी शक्तियों से सुरक्षा",
+      title: "Black Magic Removal",
+      description: "Removal of black magic, evil eye, protection from evil spirits.",
       color: "from-deep-orange to-royal-red"
     },
     {
       icon: <Zap className="text-golden" size={40} />,
-      title: "तुरंत समाधान",
-      description: "2-7 दिन में परिणाम, आपातकालीन समस्याओं का समाधान",
+      title: "Instant Solution",
+      description: "Results in 2-7 days, emergency problem solutions.",
       color: "from-golden to-saffron"
     }
   ];
@@ -55,10 +55,10 @@ export const SpecializationsSection = ({ phoneNumber }: SpecializationsSectionPr
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            हमारी विशेषताएं
+            Our Specializations
           </h2>
           <p className="text-xl text-muted-foreground">
-            जीवन की सभी समस्याओं के लिए विशेष उपाय
+            Special solutions for all life problems
           </p>
         </div>
         
@@ -80,7 +80,7 @@ export const SpecializationsSection = ({ phoneNumber }: SpecializationsSectionPr
                 onClick={handleCall}
                 className="w-full"
               >
-                सलाह लें
+                Consult Now
               </Button>
             </Card>
           ))}

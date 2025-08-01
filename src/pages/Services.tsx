@@ -15,51 +15,51 @@ const ServicesPage = ({ phoneNumber = "+91 8829922256" }: ServicesPageProps) => 
   const services = [
     {
       icon: <Heart className="text-white" size={40} />,
-      title: "निकाह की समस्या का समाधान",
-      description: "इस्लामिक तरीकों से निकाह, प्रेम विवाह, रिश्तों की समस्याओं का हल",
-      features: ["निकाह में बाधा दूर करना", "माता-पिता की सहमति", "इश्क़ की समस्या", "रिश्ता पक्का कराना"],
+      title: "Marriage Problem Solution",
+      description: "Solution to problems in marriage, love marriage, relationships with Islamic methods.",
+      features: ["Removing obstacles in marriage", "Parental consent", "Love problems", "Fixing relationships"],
       color: "from-royal-red to-saffron",
-      price: "निःशुल्क परामर्श"
+      price: "Free Consultation"
     },
     {
       icon: <TrendingUp className="text-white" size={40} />,
-      title: "व्यापार में बरकत",
-      description: "हलाल तरीकों से व्यापार में तरक्की, आर्थिक समस्या का समाधान",
-      features: ["व्यापार में बरकत", "हलाल नौकरी", "आर्थिक तंगी का हल", "करियर की बरकत"],
+      title: "Business Prosperity",
+      description: "Prosperity in business, solution to financial problems with Halal methods.",
+      features: ["Business prosperity", "Halal job", "Solution to financial crisis", "Career prosperity"],
       color: "from-emerald to-golden",
-      price: "विशेष दुआ"
+      price: "Special Dua"
     },
     {
       icon: <Home className="text-white" size={40} />,
-      title: "पारिवारिक अमन चैन",
-      description: "घरेलू कलह, पति-पत्नी में अनबन, पारिवारिक समस्याओं का इस्लामिक समाधान",
-      features: ["पति-पत्नी में मुहब्बत", "घर में बरकत", "पारिवारिक एकता", "रिश्तों में सुधार"],
+      title: "Family Peace",
+      description: "Islamic solution to domestic discord, husband-wife disputes, family problems.",
+      features: ["Love between husband and wife", "Prosperity at home", "Family unity", "Improving relationships"],
       color: "from-mystic-purple to-deep-orange",
-      price: "दुआ और वज़ीफा"
+      price: "Dua and Wazifa"
     },
     {
       icon: <Baby className="text-white" size={40} />,
-      title: "औलाद की नेमत",
-      description: "संतान प्राप्ति, गर्भधारण की समस्या का इस्लामिक समाधान",
-      features: ["औलाद की दुआ", "गर्भधारण की समस्या", "नेक संतान", "संतान की सुरक्षा"],
+      title: "Blessing of a Child",
+      description: "Islamic solution to problems of childbirth, conception.",
+      features: ["Prayer for a child", "Conception problems", "Righteous child", "Protection of the child"],
       color: "from-saffron to-golden",
-      price: "विशेष वज़ीफा"
+      price: "Special Wazifa"
     },
     {
       icon: <Shield className="text-white" size={40} />,
-      title: "नजर और जादू से हिफाजत",
-      description: "नजर लगना, जादू-टोना, बुरी नजर से बचाव के इस्लामिक उपाय",
-      features: ["नजर का इलाज", "जादू का तोड़", "बुरी शक्ति से बचाव", "इस्लामिक दम"],
+      title: "Protection from Evil Eye and Magic",
+      description: "Islamic remedies for evil eye, magic, protection from evil eye.",
+      features: ["Cure for evil eye", "Breaking magic spells", "Protection from evil forces", "Islamic dam"],
       color: "from-deep-orange to-royal-red",
-      price: "तुरंत राहत"
+      price: "Instant Relief"
     },
     {
       icon: <Zap className="text-white" size={40} />,
-      title: "तत्काल समाधान",
-      description: "आपातकालीन समस्याओं का इस्लामिक तरीकों से तुरंत समाधान",
-      features: ["तत्काल दुआ", "24 घंटे सेवा", "आपातकालीन मदद", "फौरी परिणाम"],
+      title: "Instant Solution",
+      description: "Instant solution to emergency problems with Islamic methods.",
+      features: ["Instant prayer", "24-hour service", "Emergency help", "Immediate results"],
       color: "from-golden to-saffron",
-      price: "तत्काल सेवा"
+      price: "Instant Service"
     }
   ];
 
@@ -69,10 +69,10 @@ const ServicesPage = ({ phoneNumber = "+91 8829922256" }: ServicesPageProps) => 
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-foreground mb-6">
-            हमारी इस्लामिक सेवाएं
+            Our Islamic Services
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            जीवन की सभी समस्याओं के लिए 100% हलाल और शरीयत अनुकूल समाधान - अल्लाह की रहमत से
+            100% Halal and Sharia-compliant solutions for all life problems - by the grace of Allah
           </p>
         </div>
 
@@ -112,7 +112,7 @@ const ServicesPage = ({ phoneNumber = "+91 8829922256" }: ServicesPageProps) => 
                 className="w-full"
               >
                 <Phone className="mr-2" size={18} />
-                सलाह लें
+                Consult Now
               </Button>
             </Card>
           ))}
@@ -122,10 +122,10 @@ const ServicesPage = ({ phoneNumber = "+91 8829922256" }: ServicesPageProps) => 
         <div className="text-center">
           <Card className="p-8 bg-gradient-to-r from-deep-orange to-mystic-purple text-white">
             <h2 className="text-3xl font-bold mb-4">
-              किसी भी समस्या के लिए तुरंत संपर्क करें - इन्शा अल्लाह
+              Contact us immediately for any problem - Insha'Allah
             </h2>
             <p className="text-xl mb-6">
-              24/7 उपलब्ध • निःशुल्क परामर्श • हलाल और शरीयत अनुकूल समाधान
+              Available 24/7 • Free Consultation • Halal and Sharia-compliant solutions
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
@@ -134,7 +134,7 @@ const ServicesPage = ({ phoneNumber = "+91 8829922256" }: ServicesPageProps) => 
                 onClick={handleCall}
                 className="text-xl px-12 py-6"
               >
-                कॉल करें: {phoneNumber}
+                Call: {phoneNumber}
               </Button>
               <Button 
                 variant="consult" 
@@ -142,7 +142,7 @@ const ServicesPage = ({ phoneNumber = "+91 8829922256" }: ServicesPageProps) => 
                 onClick={() => window.open(`https://wa.me/${phoneNumber.replace(/[^0-9]/g, '')}`, '_blank')}
                 className="text-xl px-12 py-6"
               >
-                WhatsApp करें
+                WhatsApp
               </Button>
             </div>
           </Card>

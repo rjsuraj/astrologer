@@ -4,21 +4,21 @@ import { Star } from "lucide-react";
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "श्रीमती आयशा खान",
-      location: "दिल्ली",
-      text: "अल्लाह का शुक्र है, मोलाना साहिल खान की दुआ से मेरे बेटे का निकाह हो गया। 3 साल से रुकी समस्या 15 दिन में हल हो गई।",
+      name: "Mrs. Aisha Khan",
+      location: "Delhi",
+      text: "Thank God, my son got married with the help of Molana Sahil Khan's prayers. The problem that was stuck for 3 years was solved in 15 days.",
       stars: 5
     },
     {
-      name: "मोहम्मद अहमद",
-      location: "मुंबई", 
-      text: "व्यापार में भारी नुकसान हो रहा था। मोलाना साहब के इस्लामिक उपाय से अब व्यापार में बरकत हो रही है।",
+      name: "Mohammad Ahmed",
+      location: "Mumbai", 
+      text: "I was facing huge losses in business. With Molana Sahab's Islamic remedies, my business is now prospering.",
       stars: 5
     },
     {
-      name: "श्रीमती फातिमा बेगम",
-      location: "हैदराबाद",
-      text: "पति-पत्नी में रोज झगड़े होते थे। मोलाना जी के वज़ीफे से अब घर में अमन चैन है।",
+      name: "Mrs. Fatima Begum",
+      location: "Hyderabad",
+      text: "There were daily fights between husband and wife. With Molana ji's wazifa, there is now peace in the house.",
       stars: 5
     }
   ];
@@ -28,10 +28,10 @@ export const TestimonialsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            खुश मुस्लिम परिवारों के अनुभव
+            Experiences of Happy Muslim Families
           </h2>
           <p className="text-xl text-muted-foreground">
-            हजारों मुस्लिम भाई-बहनों का भरोसा, अल्लाह की रहमत से सफल समाधान
+            Trusted by thousands of Muslim brothers and sisters, successful solutions by the grace of Allah
           </p>
         </div>
         

@@ -20,18 +20,18 @@ export const ContactSection = ({ phoneNumber }: ContactSectionProps) => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">
-            तुरंत सम्पर्क करें
+            Contact Us Immediately
           </h2>
           <p className="text-xl text-white/90">
-            समस्या का तुरंत समाधान पाने के लिए अभी संपर्क करें
+            Contact us now to get an immediate solution to your problem
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           <Card className="p-6 text-center bg-white/10 backdrop-blur-sm border-white/20">
             <Phone className="mx-auto mb-4 text-golden" size={48} />
-            <h3 className="text-lg font-semibold mb-2 text-white">फोन कॉल</h3>
-            <p className="text-white/80 mb-4">तुरंत बात करें</p>
+            <h3 className="text-lg font-semibold mb-2 text-white">Phone Call</h3>
+            <p className="text-white/80 mb-4">Talk to us now</p>
             <Button variant="golden" size="sm" onClick={handleCall} className="w-full">
               Call Now
             </Button>
@@ -40,7 +40,7 @@ export const ContactSection = ({ phoneNumber }: ContactSectionProps) => {
           <Card className="p-6 text-center bg-white/10 backdrop-blur-sm border-white/20">
             <MessageCircle className="mx-auto mb-4 text-golden" size={48} />
             <h3 className="text-lg font-semibold mb-2 text-white">WhatsApp</h3>
-            <p className="text-white/80 mb-4">चैट करें</p>
+            <p className="text-white/80 mb-4">Chat with us</p>
             <Button variant="prosperity" size="sm" onClick={handleWhatsApp} className="w-full">
               WhatsApp
             </Button>
@@ -48,14 +48,14 @@ export const ContactSection = ({ phoneNumber }: ContactSectionProps) => {
           
           <Card className="p-6 text-center bg-white/10 backdrop-blur-sm border-white/20">
             <Clock className="mx-auto mb-4 text-golden" size={48} />
-            <h3 className="text-lg font-semibold mb-2 text-white">समय</h3>
-            <p className="text-white/80">24/7 उपलब्ध</p>
+            <h3 className="text-lg font-semibold mb-2 text-white">Timings</h3>
+            <p className="text-white/80">Available 24/7</p>
           </Card>
           
           <Card className="p-6 text-center bg-white/10 backdrop-blur-sm border-white/20">
             <MapPin className="mx-auto mb-4 text-golden" size={48} />
-            <h3 className="text-lg font-semibold mb-2 text-white">सेवा क्षेत्र</h3>
-            <p className="text-white/80">पूरे भारत में</p>
+            <h3 className="text-lg font-semibold mb-2 text-white">Service Area</h3>
+            <p className="text-white/80">Across India</p>
           </Card>
         </div>
         
@@ -67,9 +67,9 @@ export const ContactSection = ({ phoneNumber }: ContactSectionProps) => {
             variant="golden" 
             size="xl" 
             onClick={handleCall}
-            className="text-2xl px-16 py-8 animate-pulse"
+            className="text-md px-8 py-8 animate-pulse"
           >
-            अभी कॉल करें - निःशुल्क सलाह
+            Call Now - Free Consultation
           </Button>
         </div>
       </div>

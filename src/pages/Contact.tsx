@@ -25,10 +25,10 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-foreground mb-6">
-            मोलाना साहिल खान से संपर्क करें
+            Contact Molana Sahil Khan
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            किसी भी इस्लामिक समस्या के लिए तुरंत संपर्क करें। अल्लाह की रहमत से हम 24/7 आपकी सेवा में उपलब्ध हैं।
+            Contact us immediately for any Islamic problem. By the grace of Allah, we are available 24/7 to serve you.
           </p>
         </div>
 
@@ -36,8 +36,8 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <Card className="p-6 text-center bg-gradient-to-br from-saffron to-golden text-white hover:shadow-warm transform hover:scale-105 transition-all duration-300">
             <Phone size={48} className="mx-auto mb-4" />
-            <h3 className="text-lg font-semibold mb-2">तुरंत कॉल करें</h3>
-            <p className="text-white/90 mb-4">सीधे बात करें</p>
+            <h3 className="text-lg font-semibold mb-2">Call Immediately</h3>
+            <p className="text-white/90 mb-4">Talk directly</p>
             <Button variant="consult" size="sm" onClick={handleCall} className="w-full">
               {phoneNumber}
             </Button>
@@ -45,8 +45,8 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
 
           <Card className="p-6 text-center bg-gradient-to-br from-emerald to-golden text-white hover:shadow-warm transform hover:scale-105 transition-all duration-300">
             <MessageCircle size={48} className="mx-auto mb-4" />
-            <h3 className="text-lg font-semibold mb-2">WhatsApp चैट</h3>
-            <p className="text-white/90 mb-4">मैसेज करें</p>
+            <h3 className="text-lg font-semibold mb-2">WhatsApp Chat</h3>
+            <p className="text-white/90 mb-4">Send a message</p>
             <Button variant="consult" size="sm" onClick={handleWhatsApp} className="w-full">
               WhatsApp
             </Button>
@@ -54,19 +54,19 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
 
           <Card className="p-6 text-center bg-gradient-to-br from-deep-orange to-mystic-purple text-white hover:shadow-warm transform hover:scale-105 transition-all duration-300">
             <Mail size={48} className="mx-auto mb-4" />
-            <h3 className="text-lg font-semibold mb-2">ईमेल करें</h3>
-            <p className="text-white/90 mb-4">लिखित परामर्श</p>
+            <h3 className="text-lg font-semibold mb-2">Email Us</h3>
+            <p className="text-white/90 mb-4">Written consultation</p>
             <Button variant="consult" size="sm" onClick={handleEmail} className="w-full">
-              Email भेजें
+              Send Email
             </Button>
           </Card>
 
           <Card className="p-6 text-center bg-gradient-to-br from-mystic-purple to-royal-red text-white hover:shadow-warm transform hover:scale-105 transition-all duration-300">
             <Globe size={48} className="mx-auto mb-4" />
-            <h3 className="text-lg font-semibold mb-2">ऑनलाइन सेवा</h3>
-            <p className="text-white/90 mb-4">वीडियो कॉल</p>
+            <h3 className="text-lg font-semibold mb-2">Online Service</h3>
+            <p className="text-white/90 mb-4">Video call</p>
             <Button variant="consult" size="sm" onClick={handleCall} className="w-full">
-              ऑनलाइन मीट
+              Online Meet
             </Button>
           </Card>
         </div>
@@ -74,14 +74,14 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
         {/* Contact Information */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
-            <h2 className="text-3xl font-bold text-foreground mb-6">मोलाना साहिल खान संपर्क विवरण</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-6">Molana Sahil Khan Contact Details</h2>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <Phone className="text-saffron mt-1" size={24} />
                 <div>
-                  <h3 className="font-semibold text-foreground">फोन नंबर</h3>
+                  <h3 className="font-semibold text-foreground">Phone Number</h3>
                   <p className="text-muted-foreground">{phoneNumber}</p>
-                  <p className="text-sm text-muted-foreground">24/7 उपलब्ध</p>
+                  <p className="text-sm text-muted-foreground">Available 24/7</p>
                 </div>
               </div>
 
@@ -90,63 +90,63 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
                 <div>
                   <h3 className="font-semibold text-foreground">WhatsApp</h3>
                   <p className="text-muted-foreground">{phoneNumber}</p>
-                  <p className="text-sm text-muted-foreground">तुरंत उत्तर</p>
+                  <p className="text-sm text-muted-foreground">Instant reply</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <Mail className="text-deep-orange mt-1" size={24} />
                 <div>
-                  <h3 className="font-semibold text-foreground">ईमेल</h3>
+                  <h3 className="font-semibold text-foreground">Email</h3>
                   <p className="text-muted-foreground">jyotishsamadhan@gmail.com</p>
-                  <p className="text-sm text-muted-foreground">24 घंटे में जवाब</p>
+                  <p className="text-sm text-muted-foreground">Reply within 24 hours</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <MapPin className="text-mystic-purple mt-1" size={24} />
                 <div>
-                  <h3 className="font-semibold text-foreground">इस्लामिक सेवा क्षेत्र</h3>
-                  <p className="text-muted-foreground">पूरे भारत में उपलब्ध</p>
-                  <p className="text-sm text-muted-foreground">सभी मुस्लिम भाइयों और बहनों के लिए</p>
+                  <h3 className="font-semibold text-foreground">Islamic Service Area</h3>
+                  <p className="text-muted-foreground">Available all over India</p>
+                  <p className="text-sm text-muted-foreground">For all Muslim brothers and sisters</p>
                 </div>
               </div>
             </div>
           </Card>
 
           <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
-            <h2 className="text-3xl font-bold text-foreground mb-6">समय सारणी</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-6">Timetable</h2>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Clock className="text-golden" size={20} />
                 <div>
-                  <h3 className="font-semibold text-foreground">सोमवार - शुक्रवार</h3>
-                  <p className="text-muted-foreground">सुबह 6:00 AM - रात 11:00 PM</p>
+                  <h3 className="font-semibold text-foreground">Monday - Friday</h3>
+                  <p className="text-muted-foreground">6:00 AM - 11:00 PM</p>
                 </div>
               </div>
 
               <div className="flex items-center space-x-3">
                 <Clock className="text-golden" size={20} />
                 <div>
-                  <h3 className="font-semibold text-foreground">शनिवार - रविवार</h3>
-                  <p className="text-muted-foreground">सुबह 7:00 AM - रात 10:00 PM</p>
+                  <h3 className="font-semibold text-foreground">Saturday - Sunday</h3>
+                  <p className="text-muted-foreground">7:00 AM - 10:00 PM</p>
                 </div>
               </div>
 
               <div className="flex items-center space-x-3">
                 <Clock className="text-golden" size={20} />
                 <div>
-                  <h3 className="font-semibold text-foreground">आपातकालीन सेवा</h3>
-                  <p className="text-muted-foreground">24/7 उपलब्ध</p>
+                  <h3 className="font-semibold text-foreground">Emergency Service</h3>
+                  <p className="text-muted-foreground">Available 24/7</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-8 p-6 bg-gradient-to-r from-golden/10 to-saffron/10 rounded-lg">
-              <h3 className="font-semibold text-foreground mb-2">इस्लामिक गाइडेंस</h3>
+              <h3 className="font-semibold text-foreground mb-2">Islamic Guidance</h3>
               <p className="text-muted-foreground text-sm">
-                पहली बार कॉल करने पर इस्लामिक परामर्श बिल्कुल निःशुल्क है। 
-                आपकी गोपनीयता अल्लाह के बाद हमारी प्राथमिकता है। सभी समाधान शरीयत अनुकूल हैं।
+                The first Islamic consultation is absolutely free. 
+                Your privacy is our priority after Allah. All solutions are Sharia-compliant.
               </p>
             </div>
           </Card>
@@ -156,10 +156,10 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
         <div className="text-center">
           <Card className="p-8 bg-gradient-to-r from-royal-red to-deep-orange text-white">
             <h2 className="text-3xl font-bold mb-4">
-              आपातकालीन इस्लामिक सहायता
+              Emergency Islamic Assistance
             </h2>
             <p className="text-xl mb-6">
-              तुरंत इस्लामिक समाधान चाहिए? अल्लाह की रहमत से 24/7 उपलब्ध सेवा
+              Need an immediate Islamic solution? Service available 24/7 by the grace of Allah
             </p>
             <div className="text-4xl font-bold text-golden mb-6 animate-pulse">
               {phoneNumber}
@@ -171,7 +171,7 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
                 onClick={handleCall}
                 className="text-xl px-12 py-6 animate-pulse"
               >
-                तुरंत कॉल करें
+                Call Immediately
               </Button>
               <Button 
                 variant="consult" 
@@ -179,7 +179,7 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
                 onClick={handleWhatsApp}
                 className="text-xl px-12 py-6"
               >
-                WhatsApp मैसेज
+                WhatsApp Message
               </Button>
             </div>
           </Card>

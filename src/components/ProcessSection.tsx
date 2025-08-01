@@ -14,26 +14,26 @@ export const ProcessSection = ({ phoneNumber }: ProcessSectionProps) => {
   const steps = [
     {
       icon: <Phone className="text-white" size={32} />,
-      title: "कॉल करें",
-      description: "हमें अपनी समस्या बताएं",
+      title: "Call Us",
+      description: "Tell us your problem",
       color: "bg-gradient-to-r from-deep-orange to-saffron"
     },
     {
       icon: <MessageSquare className="text-white" size={32} />,
-      title: "समस्या साझा करें",
-      description: "विस्तार से अपनी परेशानी बताएं",
+      title: "Share Your Problem",
+      description: "Explain your problem in detail",
       color: "bg-gradient-to-r from-saffron to-golden"
     },
     {
       icon: <Eye className="text-white" size={32} />,
-      title: "ज्योतिषीय विश्लेषण",
-      description: "आपकी कुंडली और समस्या का विश्लेषण",
+      title: "Astrological Analysis",
+      description: "Analysis of your horoscope and problem",
       color: "bg-gradient-to-r from-mystic-purple to-deep-orange"
     },
     {
       icon: <CheckCircle className="text-white" size={32} />,
-      title: "समाधान पाएं",
-      description: "2-7 दिन में पूर्ण समाधान",
+      title: "Get Solution",
+      description: "Complete solution in 2-7 days",
       color: "bg-gradient-to-r from-emerald to-golden"
     }
   ];
@@ -43,10 +43,10 @@ export const ProcessSection = ({ phoneNumber }: ProcessSectionProps) => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            समाधान की प्रक्रिया
+            Our Process
           </h2>
           <p className="text-xl text-muted-foreground">
-            सिर्फ 4 आसान चरणों में पाएं अपनी समस्या का समाधान
+            Get your problem solved in just 4 easy steps
           </p>
         </div>
         
@@ -76,9 +76,9 @@ export const ProcessSection = ({ phoneNumber }: ProcessSectionProps) => {
             variant="golden" 
             size="xl" 
             onClick={handleCall}
-            className="text-xl px-12 py-6"
+            className="text-md px-12 py-6"
           >
-            आज ही शुरू करें - {phoneNumber}
+           Start today - {phoneNumber}
           </Button>
         </div>
       </div>

@@ -8,28 +8,28 @@ export const FAQSection = () => {
 
   const faqs = [
     {
-      question: "क्या आपका इस्लामिक समाधान 100% हलाल है?",
-      answer: "जी हां, हमारे सभी उपाय पूर्णतः हलाल और शरीयत अनुकूल हैं। अल्लाह की रहमत से सभी समाधान क़ुरान और सुन्नत के अनुसार हैं।"
+      question: "Is your Islamic solution 100% Halal?",
+      answer: "Yes, all our remedies are completely Halal and Sharia-compliant. By the grace of Allah, all solutions are in accordance with the Quran and Sunnah."
     },
     {
-      question: "कितने दिन में परिणाम मिलता है?",
-      answer: "आमतौर पर 2-7 दिन में प्रारंभिक परिणाम दिखने लगते हैं। पूर्ण समाधान 15-21 दिन में मिल जाता है। कुछ गंभीर मामलों में 1-2 महीने लग सकते हैं।"
+      question: "How many days does it take to get results?",
+      answer: "Usually, initial results are visible in 2-7 days. A complete solution is achieved in 15-21 days. In some serious cases, it may take 1-2 months."
     },
     {
-      question: "क्या आपकी सेवाएं पूरे भारत में उपलब्ध हैं?",
-      answer: "जी हां, हमारी सेवाएं पूरे भारत में उपलब्ध हैं। फोन पर परामर्श लेकर आप घर बैठे ही सभी उपाय कर सकते हैं।"
+      question: "Are your services available all over India?",
+      answer: "Yes, our services are available all over India. You can get all the remedies done at home by consulting on the phone."
     },
     {
-      question: "इस्लामिक परामर्श का शुल्क कितना है?",
-      answer: "पहली बार बात करने पर इस्लामिक परामर्श बिल्कुल निःशुल्क है। समाधान के लिए केवल दुआ और वज़ीफा की सामग्री का न्यूनतम शुल्क लगता है।"
+      question: "What is the fee for Islamic consultation?",
+      answer: "The first consultation is absolutely free. For the solution, only a minimum fee is charged for the material of dua and wazifa."
     },
     {
-      question: "क्या यह सब हलाल और सुरक्षित है?",
-      answer: "हमारे सभी उपाय पूर्णतः हलाल और शरीयत अनुकूल हैं। कोई भी हराम या गैर-इस्लामिक तरीका नहीं अपनाया जाता। सभी उपाय क़ुरान और सुन्नत के अनुसार हैं।"
+      question: "Is all this Halal and safe?",
+      answer: "All our remedies are completely Halal and Sharia-compliant. No haram or un-Islamic method is adopted. All remedies are in accordance with the Quran and Sunnah."
     },
     {
-      question: "क्या दूर से भी उपाय किया जा सकता है?",
-      answer: "जी हां, दूर से भी सभी उपाय किए जा सकते हैं। नाम, पिता का नाम और जन्म तिथि से ही सभी उपाय संभव हैं।"
+      question: "Can remedies be done from a distance?",
+      answer: "Yes, all remedies can be done from a distance. All remedies are possible only with name, father's name and date of birth."
     }
   ];
 
@@ -38,10 +38,10 @@ export const FAQSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            अक्सर पूछे जाने वाले प्रश्न
+            Frequently Asked Questions
           </h2>
           <p className="text-xl text-muted-foreground">
-            आपके मन में आने वाले सभी सवालों के जवाब
+            Answers to all your questions
           </p>
         </div>
         
