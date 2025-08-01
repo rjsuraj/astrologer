@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+AIzaSyBt3Dv2S-TaQguH4F7fl0bJinOzUmy9wJk# Welcome to your Lovable project
 
 ## Project info
 
