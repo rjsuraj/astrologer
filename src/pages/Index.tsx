@@ -1,5 +1,6 @@
 
 import { HeroSection } from "@/components/HeroSection";
+import BlackMagicSection from "@/components/BlackMagicSection";
 import { ServiceCard } from "@/components/ServiceCard";
 import { WhyChooseUsSection } from "@/components/WhyChooseUsSection";
 import { SpecializationsSection } from "@/components/SpecializationsSection";
@@ -66,6 +67,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       
       <HeroSection phoneNumber={phoneNumber} />
+      <BlackMagicSection />
       
       <section className="py-16 bg-gradient-to-br from-background to-secondary/30">
         <div className="container mx-auto px-4">
