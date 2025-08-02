@@ -51,7 +51,7 @@ const AboutPage = ({
             </div>
           </Card>
 
-          <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
+          <Card className="p-8 backdrop-blur-sm border-2 border-golden/20 bg-lime-950">
             <h2 className="text-3xl font-bold text-foreground mb-6">Islamic Specializations</h2>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
