@@ -21,7 +21,7 @@ export const ServiceCard = ({
   };
 
   return (
-    <Card className="overflow-hidden bg-white/95 backdrop-blur-sm border-2 border-golden/20 hover:border-golden/40 transition-all duration-300 hover:shadow-warm transform hover:scale-105">
+    <Card className="overflow-hidden bg-card backdrop-blur-sm border-2 border-emerald/30 hover:border-emerald/50 transition-all duration-300 hover:shadow-warm transform hover:scale-105">
       <div className="aspect-video overflow-hidden">
         <img 
           src={image} 
