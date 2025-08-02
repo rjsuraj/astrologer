@@ -26,7 +26,7 @@ import lostLove from "@/assets/lost_love.jpg"
 import duaChild from "@/assets/dua_child.jpg"
 
 const Index = () => {
-  const phoneNumber = "+91 8829922256";
+  const phoneNumber = "+91 8890488299";
 
   const services = [
     {
@@ -71,8 +71,6 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       
       <HeroSection phoneNumber={phoneNumber} />
-      <BlackMagicSection />
-      <LostLoveSection />
       
       <section className="py-16 bg-gradient-to-br from-background to-secondary/30">
         <div className="container mx-auto px-4">
@@ -99,7 +97,10 @@ const Index = () => {
           </div>
         </div>
       </section>
-      
+
+      <BlackMagicSection />
+      <LostLoveSection />
+
       <TestimonialsSection />
       
       <WhyChooseUsSection />

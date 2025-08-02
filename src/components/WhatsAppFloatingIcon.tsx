@@ -14,7 +14,7 @@ export const WhatsAppFloatingIcon = ({
   };
 
   return (
-    <div className="fixed bottom-8 right-8 z-50">
+    <div className="fixed bottom-8 right-10 z-50">
       <Button
         size="icon"
         className="bg-green-500 hover:bg-green-600 text-white rounded-full w-20 h-20 flex items-center justify-center shadow-lg transform hover:scale-110 transition-transform duration-200"

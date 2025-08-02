@@ -6,7 +6,7 @@ interface LayoutProps {
 }
 
 const Layout = ({ children }: LayoutProps) => {
-  const phoneNumber = "+91 8829922256"; // Replace with your WhatsApp number
+  const phoneNumber = "+91 8890488299"; // Replace with your WhatsApp number
 
   return (
     <>

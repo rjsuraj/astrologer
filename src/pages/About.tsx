@@ -5,7 +5,7 @@ interface AboutPageProps {
   phoneNumber?: string;
 }
 const AboutPage = ({
-  phoneNumber = "+91 8829922256"
+  phoneNumber = "+91 8890488299"
 }: AboutPageProps) => {
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
