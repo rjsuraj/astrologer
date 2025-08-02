@@ -8,41 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 140 20% 20%;
-    --foreground: 120 15% 95%;
+    --background: 45 100% 97%;
+    --foreground: 25 25% 15%;
 
-    --card: 140 15% 25%;
-    --card-foreground: 120 15% 95%;
+    --card: 0 0% 100%;
+    --card-foreground: 25 25% 15%;
 
-    --popover: 140 15% 25%;
-    --popover-foreground: 120 15% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 25% 15%;
 
-    --primary: 140 50% 55%;
-    --primary-foreground: 140 20% 10%;
+    --primary: 15 88% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 140 15% 30%;
-    --secondary-foreground: 120 15% 95%;
+    --secondary: 45 100% 88%;
+    --secondary-foreground: 25 25% 15%;
 
-    --muted: 140 10% 35%;
-    --muted-foreground: 120 10% 80%;
+    --muted: 45 50% 95%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 140 40% 60%;
-    --accent-foreground: 140 20% 10%;
+    --accent: 25 85% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 140 15% 40%;
-    --input: 140 15% 40%;
-    --ring: 140 50% 55%;
+    --border: 45 30% 85%;
+    --input: 45 30% 85%;
+    --ring: 15 88% 55%;
 
     /* Custom Islamic themed colors */
-    --saffron: 140 60% 70%;
-    --deep-orange: 140 50% 45%;
-    --golden: 45 100% 70%;
-    --emerald: 140 50% 55%;
-    --royal-red: 140 30% 35%;
-    --mystic-purple: 140 25% 30%;
+    --saffron: 158 64% 52%;
+    --deep-orange: 180 100% 25%;
+    --golden: 45 100% 65%;
+    --emerald: 158 64% 52%;
+    --royal-red: 210 100% 25%;
+    --mystic-purple: 200 100% 15%;
     
     /* Gradients */
     --gradient-sunset: linear-gradient(135deg, hsl(var(--emerald)), hsl(var(--deep-orange)));
@@ -52,7 +52,7 @@ All colors MUST be HSL.
     
     /* Shadows */
     --shadow-warm: 0 10px 30px -10px hsl(var(--emerald) / 0.3);
-    --shadow-mystical: 0 0 40px hsl(var(--emerald) / 0.2);
+    --shadow-mystical: 0 0 40px hsl(var(--royal-red) / 0.2);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
