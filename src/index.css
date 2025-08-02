@@ -8,41 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 140 30% 8%;
-    --foreground: 120 20% 95%;
+    --background: 140 20% 20%;
+    --foreground: 120 15% 95%;
 
-    --card: 140 25% 12%;
-    --card-foreground: 120 20% 95%;
+    --card: 140 15% 25%;
+    --card-foreground: 120 15% 95%;
 
-    --popover: 140 25% 12%;
-    --popover-foreground: 120 20% 95%;
+    --popover: 140 15% 25%;
+    --popover-foreground: 120 15% 95%;
 
-    --primary: 140 60% 35%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 140 50% 55%;
+    --primary-foreground: 140 20% 10%;
 
-    --secondary: 140 25% 15%;
-    --secondary-foreground: 120 20% 95%;
+    --secondary: 140 15% 30%;
+    --secondary-foreground: 120 15% 95%;
 
-    --muted: 140 20% 18%;
-    --muted-foreground: 120 10% 70%;
+    --muted: 140 10% 35%;
+    --muted-foreground: 120 10% 80%;
 
-    --accent: 140 50% 45%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 140 40% 60%;
+    --accent-foreground: 140 20% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 140 20% 25%;
-    --input: 140 20% 25%;
-    --ring: 140 60% 35%;
+    --border: 140 15% 40%;
+    --input: 140 15% 40%;
+    --ring: 140 50% 55%;
 
     /* Custom Islamic themed colors */
-    --saffron: 140 70% 60%;
-    --deep-orange: 140 60% 25%;
-    --golden: 45 100% 65%;
-    --emerald: 140 60% 35%;
-    --royal-red: 140 40% 20%;
-    --mystic-purple: 140 30% 15%;
+    --saffron: 140 60% 70%;
+    --deep-orange: 140 50% 45%;
+    --golden: 45 100% 70%;
+    --emerald: 140 50% 55%;
+    --royal-red: 140 30% 35%;
+    --mystic-purple: 140 25% 30%;
     
     /* Gradients */
     --gradient-sunset: linear-gradient(135deg, hsl(var(--emerald)), hsl(var(--deep-orange)));
