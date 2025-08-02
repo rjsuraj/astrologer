@@ -3,29 +3,32 @@ import { Star } from "lucide-react";
 import muslimCoupleHappy from "@/assets/muslim-couple-happy.jpg";
 import islamicFamily from "@/assets/islamic-family.jpg";
 import islamicScholar from "@/assets/islamic-scholar.jpg";
+import person1 from "@/assets/person1.jpg";
+import person2 from "@/assets/person2.jpg";
+import person3 from "@/assets/person3.jpg"
 
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Mrs. Aisha Khan",
+      name: "Tushar",
       location: "Delhi",
       text: "Thank God, my son got married with the help of Molana Sahil Khan's prayers. The problem that was stuck for 3 years was solved in 15 days.",
       stars: 5,
-      image: muslimCoupleHappy
+      image: person1
     },
     {
       name: "Mohammad Ahmed",
       location: "Mumbai", 
       text: "I was facing huge losses in business. With Molana Sahab's Islamic remedies, my business is now prospering.",
       stars: 5,
-      image: islamicFamily
+      image: person2
     },
     {
-      name: "Mrs. Fatima Begum",
+      name: "Shubham",
       location: "Hyderabad",
       text: "There were daily fights between husband and wife. With Molana ji's wazifa, there is now peace in the house.",
       stars: 5,
-      image: islamicScholar
+      image: person3
     }
   ];
 

@@ -8,6 +8,12 @@ import islamicFamily from "@/assets/islamic-family.jpg";
 import islamicPrayer from "@/assets/islamic-prayer.jpg";
 import islamicAstrology from "@/assets/islamic-astrology.jpg";
 import astrologerConsultation from "@/assets/astrologer-consultation.jpg";
+import businessGrowth from "@/assets/business_growth2.jpg";
+import loveProblem from "@/assets/love_problem.jpg";
+import blackMagic from "@/assets/Black_magic_removal.jpg"
+import birthIssue from "@/assets/birth_issue.jpg"
+
+
 
 interface SpecializationsSectionProps {
   phoneNumber: string;
@@ -20,12 +26,12 @@ export const SpecializationsSection = ({ phoneNumber }: SpecializationsSectionPr
 
   const specializations = [
     {
-      image: loveSolution,
+      image: loveProblem,
       title: "Love Problem Solution",
       description: "Get your love back, love marriage, one-sided love solution.",
     },
     {
-      image: businessProsperity,
+      image: businessGrowth,
       title: "Business Growth",
       description: "Business growth, financial problems, job problems.",
     },
@@ -35,12 +41,12 @@ export const SpecializationsSection = ({ phoneNumber }: SpecializationsSectionPr
       description: "Family disputes, relationship issues, mother-in-law problems.",
     },
     {
-      image: islamicPrayer,
+      image: birthIssue,
       title: "Childbirth Issues",
       description: "Childbirth prediction, childbirth problems, pregnancy problems.",
     },
     {
-      image: islamicAstrology,
+      image: blackMagic,
       title: "Black Magic Removal",
       description: "Removal of black magic, evil eye, protection from evil spirits.",
     },

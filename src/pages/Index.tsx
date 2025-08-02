@@ -11,15 +11,17 @@ import { FAQSection } from "@/components/FAQSection";
 import { ContactSection } from "@/components/ContactSection";
 
 // Import images and video
-import islamicMosque from "@/assets/islamic-mosque.jpg";
+
 import muslimCoupleHappy from "@/assets/muslim-couple-happy.jpg";
-import islamicAstrology from "@/assets/islamic-astrology.jpg";
 import islamicDua from "@/assets/islamic-dua.jpg";
 import islamicScholar from "@/assets/islamic-scholar.jpg";
 import islamicPrayer from "@/assets/islamic-prayer.jpg";
 import islamicNumerology from "@/assets/islamic-numerology.jpg";
 import islamicFamily from "@/assets/islamic-family.jpg";
 import blackMagicVideo from "@/assets/black_magic.mp4";
+import bussinessGrowth from "@/assets/business_growth1.jpg"
+import divorceProblem from "@/assets/divorce_problem.jpg"
+import lostLove from "@/assets/lost_love.jpg"
 
 const Index = () => {
   const phoneNumber = "+91 8829922256";
@@ -33,13 +35,13 @@ const Index = () => {
     },
     {
       title: "Return of Lost Love",
-      image: islamicDua,
+      image: lostLove,
       description: "Get your lost love back through Quranic verses and sacred dua. 100% Halal Islamic method.",
       variant: "saffron" as const
     },
     {
       title: "Measures to Prevent Divorce",
-      image: islamicPrayer,
+      image: divorceProblem,
       description: "Special wazifa and dua to avoid divorce. Islamic methods to increase love between husband and wife.",
       variant: "prosperity" as const
     },
@@ -51,7 +53,7 @@ const Index = () => {
     },
     {
       title: "Prosperity in Business",
-      image: islamicNumerology,
+      image: bussinessGrowth,
       description: "Islamic solutions for business progress and financial problems. Special dua for halal earnings and prosperity.",
       variant: "saffron" as const
     },
