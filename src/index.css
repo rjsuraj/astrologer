@@ -8,51 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 45 100% 97%;
-    --foreground: 25 25% 15%;
+    --background: 140 30% 8%;
+    --foreground: 0 0% 100%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 25 25% 15%;
+    --card: 140 25% 18%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 25 25% 15%;
+    --popover: 140 25% 12%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 15 88% 55%;
+    --primary: 170 60% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 100% 88%;
-    --secondary-foreground: 25 25% 15%;
+    --secondary: 140 20% 15%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 45 50% 95%;
-    --muted-foreground: 25 15% 45%;
+    --muted: 140 15% 20%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 25 85% 60%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 100% 65%;
+    --accent-foreground: 140 30% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 45 30% 85%;
-    --input: 45 30% 85%;
-    --ring: 15 88% 55%;
+    --border: 140 20% 25%;
+    --input: 140 20% 25%;
+    --ring: 170 60% 45%;
 
-    /* Custom Islamic themed colors */
-    --saffron: 158 64% 52%;
-    --deep-orange: 180 100% 25%;
+    /* Dark green themed colors */
+    --saffron: 170 60% 45%;
+    --deep-orange: 170 80% 25%;
     --golden: 45 100% 65%;
-    --emerald: 158 64% 52%;
-    --royal-red: 210 100% 25%;
-    --mystic-purple: 200 100% 15%;
+    --emerald: 170 60% 45%;
+    --royal-red: 170 80% 25%;
+    --mystic-purple: 170 50% 20%;
     
-    /* Gradients */
+    /* Dark green gradients */
     --gradient-sunset: linear-gradient(135deg, hsl(var(--emerald)), hsl(var(--deep-orange)));
     --gradient-golden: linear-gradient(135deg, hsl(var(--golden)), hsl(var(--emerald)));
     --gradient-mystical: linear-gradient(135deg, hsl(var(--royal-red)), hsl(var(--deep-orange)));
     --gradient-prosperity: linear-gradient(135deg, hsl(var(--emerald)), hsl(var(--golden)));
     
-    /* Shadows */
+    /* Dark green shadows */
     --shadow-warm: 0 10px 30px -10px hsl(var(--emerald) / 0.3);
-    --shadow-mystical: 0 0 40px hsl(var(--royal-red) / 0.2);
+    --shadow-mystical: 0 0 40px hsl(var(--emerald) / 0.2);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

@@ -53,7 +53,7 @@ export const ProcessSection = ({ phoneNumber }: ProcessSectionProps) => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {steps.map((step, index) => (
             <div key={index} className="text-center">
-              <Card className="p-6 bg-white/95 backdrop-blur-sm border-2 border-golden/20 hover:border-golden/40 transition-all duration-300 hover:shadow-warm transform hover:scale-105 mb-4">
+              <Card className="p-6 bg-card backdrop-blur-sm border-2 border-emerald/30 hover:border-emerald/50 transition-all duration-300 hover:shadow-warm transform hover:scale-105 mb-4">
                 <div className={`${step.color} p-4 rounded-full w-fit mx-auto mb-4`}>
                   {step.icon}
                 </div>

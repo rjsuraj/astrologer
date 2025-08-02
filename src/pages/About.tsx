@@ -1,18 +1,16 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, BookOpen, Award, Users } from "lucide-react";
-
 interface AboutPageProps {
   phoneNumber?: string;
 }
-
-const AboutPage = ({ phoneNumber = "+91 8829922256" }: AboutPageProps) => {
+const AboutPage = ({
+  phoneNumber = "+91 8829922256"
+}: AboutPageProps) => {
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
   };
-
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-secondary/30">
+  return <div className="min-h-screen bg-gradient-to-br from-background to-secondary/30">
       <div className="container mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="text-center mb-16">
@@ -26,7 +24,7 @@ const AboutPage = ({ phoneNumber = "+91 8829922256" }: AboutPageProps) => {
 
         {/* Main Content */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
-          <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
+          <Card className="p-8 backdrop-blur-sm border-2 border-golden/20 bg-lime-950">
             <h2 className="text-3xl font-bold text-foreground mb-6">Islamic Education and Qualification</h2>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
@@ -53,7 +51,7 @@ const AboutPage = ({ phoneNumber = "+91 8829922256" }: AboutPageProps) => {
             </div>
           </Card>
 
-          <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
+          <Card className="p-8 backdrop-blur-sm border-2 border-golden/20 bg-lime-950">
             <h2 className="text-3xl font-bold text-foreground mb-6">Islamic Specializations</h2>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
@@ -114,19 +112,12 @@ const AboutPage = ({ phoneNumber = "+91 8829922256" }: AboutPageProps) => {
             <p className="text-xl mb-6">
               Call now to get an Islamic solution to your problem - by the grace of Allah
             </p>
-            <Button 
-              variant="consult" 
-              size="xl" 
-              onClick={handleCall}
-              className="text-xl px-12 py-6"
-            >
+            <Button variant="consult" size="xl" onClick={handleCall} className="text-xl px-12 py-6">
               Call: {phoneNumber}
             </Button>
           </Card>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default AboutPage;

@@ -46,8 +46,8 @@ export const TestimonialsSection = () => {
         
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="p-6 bg-white/95 backdrop-blur-sm border-2 border-golden/20 hover:border-golden/40 transition-all duration-300 hover:shadow-warm flex flex-col items-center text-center">
-              <img src={testimonial.image} alt={testimonial.name} className="w-24 h-24 rounded-full object-cover border-4 border-golden/30 mb-4" />
+            <Card key={index} className="p-6 bg-card backdrop-blur-sm border-2 border-emerald/30 hover:border-emerald/50 transition-all duration-300 hover:shadow-warm flex flex-col items-center text-center">
+              <img src={testimonial.image} alt={testimonial.name} className="w-24 h-24 rounded-full object-cover border-4 border-emerald/30 mb-4" />
               <div className="flex items-center mb-4">
                 {[...Array(testimonial.stars)].map((_, i) => (
                   <Star key={i} className="text-golden fill-current" size={20} />

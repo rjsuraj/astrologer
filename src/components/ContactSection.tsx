@@ -28,34 +28,34 @@ export const ContactSection = ({ phoneNumber }: ContactSectionProps) => {
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          <Card className="p-6 text-center bg-white/10 backdrop-blur-sm border-white/20">
-            <Phone className="mx-auto mb-4 text-golden" size={48} />
-            <h3 className="text-lg font-semibold mb-2 text-white">Phone Call</h3>
-            <p className="text-white/80 mb-4">Talk to us now</p>
+          <Card className="p-6 text-center bg-card/80 backdrop-blur-sm border-emerald/30">
+            <Phone className="mx-auto mb-4 text-emerald" size={48} />
+            <h3 className="text-lg font-semibold mb-2 text-foreground">Phone Call</h3>
+            <p className="text-muted-foreground mb-4">Talk to us now</p>
             <Button variant="golden" size="sm" onClick={handleCall} className="w-full">
               Call Now
             </Button>
           </Card>
           
-          <Card className="p-6 text-center bg-white/10 backdrop-blur-sm border-white/20">
-            <MessageCircle className="mx-auto mb-4 text-golden" size={48} />
-            <h3 className="text-lg font-semibold mb-2 text-white">WhatsApp</h3>
-            <p className="text-white/80 mb-4">Chat with us</p>
+          <Card className="p-6 text-center bg-card/80 backdrop-blur-sm border-emerald/30">
+            <MessageCircle className="mx-auto mb-4 text-emerald" size={48} />
+            <h3 className="text-lg font-semibold mb-2 text-foreground">WhatsApp</h3>
+            <p className="text-muted-foreground mb-4">Chat with us</p>
             <Button variant="prosperity" size="sm" onClick={handleWhatsApp} className="w-full">
               WhatsApp
             </Button>
           </Card>
           
-          <Card className="p-6 text-center bg-white/10 backdrop-blur-sm border-white/20">
-            <Clock className="mx-auto mb-4 text-golden" size={48} />
-            <h3 className="text-lg font-semibold mb-2 text-white">Timings</h3>
-            <p className="text-white/80">Available 24/7</p>
+          <Card className="p-6 text-center bg-card/80 backdrop-blur-sm border-emerald/30">
+            <Clock className="mx-auto mb-4 text-emerald" size={48} />
+            <h3 className="text-lg font-semibold mb-2 text-foreground">Timings</h3>
+            <p className="text-muted-foreground">Available 24/7</p>
           </Card>
           
-          <Card className="p-6 text-center bg-white/10 backdrop-blur-sm border-white/20">
-            <MapPin className="mx-auto mb-4 text-golden" size={48} />
-            <h3 className="text-lg font-semibold mb-2 text-white">Service Area</h3>
-            <p className="text-white/80">Across India</p>
+          <Card className="p-6 text-center bg-card/80 backdrop-blur-sm border-emerald/30">
+            <MapPin className="mx-auto mb-4 text-emerald" size={48} />
+            <h3 className="text-lg font-semibold mb-2 text-foreground">Service Area</h3>
+            <p className="text-muted-foreground">Across India</p>
           </Card>
         </div>
         

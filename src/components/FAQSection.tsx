@@ -47,7 +47,7 @@ export const FAQSection = () => {
         
         <div className="max-w-4xl mx-auto space-y-4">
           {faqs.map((faq, index) => (
-            <Card key={index} className="overflow-hidden bg-white/95 backdrop-blur-sm border-2 border-golden/20">
+            <Card key={index} className="overflow-hidden bg-card backdrop-blur-sm border-2 border-emerald/30">
               <Button
                 variant="ghost"
                 className="w-full p-6 text-left justify-between h-auto hover:bg-golden/10"

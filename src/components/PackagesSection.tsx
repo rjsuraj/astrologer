@@ -68,7 +68,7 @@ export const PackagesSection = ({ phoneNumber }: PackagesSectionProps) => {
         
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {packages.map((pkg, index) => (
-            <Card key={index} className={`relative p-8 bg-white/95 backdrop-blur-sm border-2 transition-all duration-300 hover:shadow-warm transform hover:scale-105 ${pkg.popular ? 'border-golden shadow-warm scale-105' : 'border-golden/20 hover:border-golden/40'}`}>
+            <Card key={index} className={`relative p-8 bg-card backdrop-blur-sm border-2 transition-all duration-300 hover:shadow-warm transform hover:scale-105 ${pkg.popular ? 'border-emerald shadow-warm scale-105' : 'border-emerald/30 hover:border-emerald/50'}`}>
               {pkg.popular && (
                 <Badge className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-golden to-saffron text-white px-4 py-1">
                   <Star className="mr-1" size={16} />
