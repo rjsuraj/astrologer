@@ -100,15 +100,18 @@ const Index = () => {
         </div>
       </section>
       
+      <TestimonialsSection />
+      
       <WhyChooseUsSection />
       
+
       <SpecializationsSection phoneNumber={phoneNumber} />
       
+
       <ProcessSection phoneNumber={phoneNumber} />
       
       <PackagesSection phoneNumber={phoneNumber} />
       
-      <TestimonialsSection />
       
       <FAQSection />
       
