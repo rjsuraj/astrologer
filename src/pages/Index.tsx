@@ -22,6 +22,7 @@ import blackMagicVideo from "@/assets/black_magic.mp4";
 import bussinessGrowth from "@/assets/business_growth1.jpg"
 import divorceProblem from "@/assets/divorce_problem.jpg"
 import lostLove from "@/assets/lost_love.jpg"
+import duaChild from "@/assets/dua_child.jpg"
 
 const Index = () => {
   const phoneNumber = "+91 8829922256";
@@ -59,7 +60,7 @@ const Index = () => {
     },
     {
       title: "Dua for Child Conception",
-      image: islamicScholar,
+      image: duaChild,
       description: "Islamic dua and wazifa to be blessed with offspring. Measures for virtuous children and their protection.",
       variant: "mystical" as const
     }
