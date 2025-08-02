@@ -1,26 +1,22 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, MessageCircle, Mail, Clock, Globe } from "lucide-react";
-
 interface ContactPageProps {
   phoneNumber?: string;
 }
-
-const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
+const ContactPage = ({
+  phoneNumber = "+91 8829922256"
+}: ContactPageProps) => {
   const handleCall = () => {
     window.location.href = `tel:${phoneNumber}`;
   };
-
   const handleWhatsApp = () => {
     window.open(`https://wa.me/${phoneNumber.replace(/[^0-9]/g, '')}`, '_blank');
   };
-
   const handleEmail = () => {
     window.location.href = 'mailto:jyotishsamadhan@gmail.com';
   };
-
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-secondary/30">
+  return <div className="min-h-screen bg-gradient-to-br from-background to-secondary/30">
       <div className="container mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="text-center mb-16">
@@ -73,7 +69,7 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
 
         {/* Contact Information */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
-          <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
+          <Card className="p-8 backdrop-blur-sm border-2 border-golden/20 bg-lime-950">
             <h2 className="text-3xl font-bold text-foreground mb-6">Molana Sahil Khan Contact Details</h2>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
@@ -114,7 +110,7 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
             </div>
           </Card>
 
-          <Card className="p-8 bg-white/95 backdrop-blur-sm border-2 border-golden/20">
+          <Card className="p-8 backdrop-blur-sm border-2 border-golden/20 bg-lime-950">
             <h2 className="text-3xl font-bold text-foreground mb-6">Timetable</h2>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
@@ -165,28 +161,16 @@ const ContactPage = ({ phoneNumber = "+91 8829922256" }: ContactPageProps) => {
               {phoneNumber}
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                variant="golden" 
-                size="xl" 
-                onClick={handleCall}
-                className="text-xl px-12 py-6 animate-pulse"
-              >
+              <Button variant="golden" size="xl" onClick={handleCall} className="text-xl px-12 py-6 animate-pulse">
                 Call Immediately
               </Button>
-              <Button 
-                variant="consult" 
-                size="xl" 
-                onClick={handleWhatsApp}
-                className="text-xl px-12 py-6"
-              >
+              <Button variant="consult" size="xl" onClick={handleWhatsApp} className="text-xl px-12 py-6">
                 WhatsApp Message
               </Button>
             </div>
           </Card>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default ContactPage;
