@@ -8,8 +8,9 @@ interface PackagesSectionProps {
 }
 
 export const PackagesSection = ({ phoneNumber }: PackagesSectionProps) => {
-  const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
+  const handleWhatsAppClick = () => {
+    const formattedPhoneNumber = phoneNumber.replace(/[^0-9]/g, "");
+    window.open(`https://wa.me/${formattedPhoneNumber}`, "_blank");
   };
 
   const packages = [
@@ -104,7 +105,7 @@ export const PackagesSection = ({ phoneNumber }: PackagesSectionProps) => {
               <Button 
                 variant={pkg.popular ? "golden" : "consult"} 
                 size="lg" 
-                onClick={handleCall}
+                onClick={handleWhatsAppClick}
                 className="w-full"
               >
                 <Phone className="mr-2" size={18} />

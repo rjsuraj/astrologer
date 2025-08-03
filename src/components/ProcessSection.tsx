@@ -7,8 +7,9 @@ interface ProcessSectionProps {
 }
 
 export const ProcessSection = ({ phoneNumber }: ProcessSectionProps) => {
-  const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
+  const handleWhatsAppClick = () => {
+    const formattedPhoneNumber = phoneNumber.replace(/[^0-9]/g, "");
+    window.open(`https://wa.me/${formattedPhoneNumber}`, "_blank");
   };
 
   const steps = [
@@ -75,7 +76,7 @@ export const ProcessSection = ({ phoneNumber }: ProcessSectionProps) => {
           <Button 
             variant="golden" 
             size="xl" 
-            onClick={handleCall}
+            onClick={handleWhatsAppClick}
             className="text-md px-12 py-6"
           >
            Start today - {phoneNumber}

@@ -20,8 +20,9 @@ interface SpecializationsSectionProps {
 }
 
 export const SpecializationsSection = ({ phoneNumber }: SpecializationsSectionProps) => {
-  const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
+  const handleWhatsAppClick = () => {
+    const formattedPhoneNumber = phoneNumber.replace(/[^0-9]/g, "");
+    window.open(`https://wa.me/${formattedPhoneNumber}`, "_blank");
   };
 
   const specializations = [
@@ -85,7 +86,7 @@ export const SpecializationsSection = ({ phoneNumber }: SpecializationsSectionPr
                 <Button 
                   variant="consult" 
                   size="sm" 
-                  onClick={handleCall}
+                  onClick={handleWhatsAppClick}
                   className="w-full mt-auto"
                 >
                   Consult Now

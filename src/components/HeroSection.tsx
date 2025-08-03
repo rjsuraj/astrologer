@@ -9,8 +9,9 @@ interface HeroSectionProps {
 export const HeroSection = ({
   phoneNumber
 }: HeroSectionProps) => {
-  const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
+  const handleWhatsAppClick = () => {
+    const formattedPhoneNumber = phoneNumber.replace(/[^0-9]/g, "");
+    window.open(`https://wa.me/${formattedPhoneNumber}`, "_blank");
   };
 
   return (
@@ -32,7 +33,7 @@ export const HeroSection = ({
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <Button variant="golden" size="xl" onClick={handleCall} className="text-xl px-12 py-6 animate-pulse">
+            <Button variant="golden" size="xl" onClick={handleWhatsAppClick} className="text-xl px-12 py-6 animate-pulse">
               Call here: {phoneNumber}
             </Button>
           </div>

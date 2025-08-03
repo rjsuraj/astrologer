@@ -16,8 +16,9 @@ export const ServiceCard = ({
   phoneNumber, 
   variant = "saffron" 
 }: ServiceCardProps) => {
-  const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
+  const handleWhatsAppClick = () => {
+    const formattedPhoneNumber = phoneNumber.replace(/[^0-9]/g, "");
+    window.open(`https://wa.me/${formattedPhoneNumber}`, "_blank");
   };
 
   return (
@@ -40,7 +41,7 @@ export const ServiceCard = ({
           <Button 
             variant={variant} 
             size="lg" 
-            onClick={handleCall}
+            onClick={handleWhatsAppClick}
             className="w-full text-lg font-semibold"
           >
             CALL ME {phoneNumber}
@@ -48,7 +49,7 @@ export const ServiceCard = ({
           <Button 
             variant="consult" 
             size="lg" 
-            onClick={handleCall}
+            onClick={handleWhatsAppClick}
             className="w-full"
           >
             CALL NOW {phoneNumber}

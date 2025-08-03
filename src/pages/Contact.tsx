@@ -7,14 +7,11 @@ interface ContactPageProps {
 const ContactPage = ({
   phoneNumber = "+91 8890488299"
 }: ContactPageProps) => {
-  const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
-  };
   const handleWhatsApp = () => {
     window.open(`https://wa.me/${phoneNumber.replace(/[^0-9]/g, '')}`, '_blank');
   };
   const handleEmail = () => {
-    window.location.href = 'mailto:jyotishsamadhan@gmail.com';
+    window.location.href = 'mailto:sahilkhan@gmail.com';
   };
   return <div className="min-h-screen bg-gradient-to-br from-background to-secondary/30">
       <div className="container mx-auto px-4 py-16">
@@ -34,7 +31,7 @@ const ContactPage = ({
             <Phone size={48} className="mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Call Immediately</h3>
             <p className="text-white/90 mb-4">Talk directly</p>
-            <Button variant="consult" size="sm" onClick={handleCall} className="w-full">
+            <Button variant="consult" size="sm" onClick={handleWhatsApp} className="w-full">
               {phoneNumber}
             </Button>
           </Card>
@@ -61,7 +58,7 @@ const ContactPage = ({
             <Globe size={48} className="mx-auto mb-4" />
             <h3 className="text-lg font-semibold mb-2">Online Service</h3>
             <p className="text-white/90 mb-4">Video call</p>
-            <Button variant="consult" size="sm" onClick={handleCall} className="w-full">
+            <Button variant="consult" size="sm" onClick={handleWhatsApp} className="w-full">
               Online Meet
             </Button>
           </Card>
@@ -161,7 +158,7 @@ const ContactPage = ({
               {phoneNumber}
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="golden" size="xl" onClick={handleCall} className="text-xl px-12 py-6 animate-pulse">
+              <Button variant="golden" size="xl" onClick={handleWhatsApp} className="text-xl px-12 py-6 animate-pulse">
                 Call Immediately
               </Button>
               <Button variant="consult" size="xl" onClick={handleWhatsApp} className="text-xl px-12 py-6">
