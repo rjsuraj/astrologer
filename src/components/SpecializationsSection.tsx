@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import LazyMedia from "./LazyMedia";
 
 // Import images
 import loveSolution from "@/assets/love-solution.jpg";
@@ -75,7 +74,7 @@ export const SpecializationsSection = ({ phoneNumber }: SpecializationsSectionPr
           {specializations.map((spec, index) => (
             <Card key={index} className="group bg-card backdrop-blur-sm border-2 border-emerald/30 hover:border-emerald/50 transition-all duration-300 overflow-hidden hover:shadow-warm p-6 flex flex-col items-center">
               <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-emerald/30 group-hover:border-emerald/50 transition-all duration-300 mb-4">
-                <LazyMedia src={spec.image} alt={spec.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                <img src={spec.image} alt={spec.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
               </div>
               <div className="text-center flex-grow flex flex-col">
                 <h3 className="text-xl font-bold text-foreground mb-3">

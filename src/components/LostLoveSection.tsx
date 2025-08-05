@@ -1,6 +1,5 @@
 import React from 'react';
 import lostLoveVideo from "@/assets/lost_love.mp4";
-import LazyMedia from './LazyMedia';
 
 export const LostLoveSection = () => {
     const phoneNumber = "+91 8890488299";
@@ -13,12 +12,13 @@ export const LostLoveSection = () => {
                 <div className="flex flex-wrap items-center -mx-4">
                     <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
                         <div className="relative" style={{ paddingTop: "56.25%" }}>
-                            <LazyMedia
-                                src={lostLoveVideo}
-                                alt="Lost Love Back"
-                                isVideo
+                            <video
                                 className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                                src={lostLoveVideo}
                                 controls
+                                autoPlay
+                                muted
+                                loop
                             />
                         </div>
                     </div>
