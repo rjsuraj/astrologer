@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import LazyMedia from "./LazyMedia";
 
 interface ServiceCardProps {
   title: string;
@@ -24,7 +25,7 @@ export const ServiceCard = ({
   return (
     <Card className="overflow-hidden bg-card backdrop-blur-sm border-2 border-emerald/30 hover:border-emerald/50 transition-all duration-300 hover:shadow-warm transform hover:scale-105">
       <div className="aspect-video overflow-hidden">
-        <img 
+        <LazyMedia 
           src={image} 
           alt={title} 
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
